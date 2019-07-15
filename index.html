@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="left_side">
+            <h2>Nice Nicole Ininahazwe</h2>
+            <img src="images/pic.png">
+            <h1></h1>
+            <p><em>Hi,I'm Nice Nicole Ininahazwe, i'm a junior web designer and developer. Welcome to my website :)</em></p>
+
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home_section">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about_me">About me</a>
+                        </li>
+                        <li>
+                            <a href="#my_projects">My projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact_us">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+      <div class="right_side">
+          <div id="home_section">
+                <!-- <img  width="100%"  src="images/pic4.jpg"> -->
+          </div>
+          
+  
+          <div id="about_me">
+                <h1>About me</h1>
+
+                <p>I'm Nicole, i'm striving to become a great and good developer in creating awesome,usable and professional websites using best practises and frameworks offered by WeCode Moringa School.
+                    I'm a future software engineer graduate at AUCA. I decided to take a class on programming for improving my skills and my capabilities in web and software development areas and for me to achieve to do something real and wonderful.
+                    Languages i use mostly when doing my projects are HTML, CSS and Javascript.
+                    I like reading, watching comedies and i have a passion for dance.
+
+                    I'm interested in becoming a better of me in Information Technology especially in implementation and protection of my products in this world full of sensible information.
+                    
+                </p>
+          </div>
+
+          
+          
+          <div id= "my_projects">
+                <h1>My projects</h1>
+              <div id="project_screenshots">
+            
+              <p id="restaurant_project">
+                <img width="300px" src="images/restaurant.png">
+                <a href="https://repl.it/student/submissions/7057858">restaurant website</a>
+              </p>
+              <p id="university_website">
+              <img width="400px" src="images/universityWebsite.png">
+              <a href="https://repl.it/student/submissions/7296281">university website</a>
+              </p>
+            </div>
+         </div>
+          <div id="contact_us">
+                <form>
+                    <h1>Contact us</h1>
+                    <input type="text" name="message" id="username" placeholder="Enter username">
+                    <input type="email" name="emailmessage" id="adEmail" placeholder="Enter email"></br>
+                    <textarea rows="5" cols="20" name="message" placeholder="enter your message..." ></textarea>
+                </form>
+
+                <input type="submit" class="button" onclick="myFunction();"><br/>
+                <p><span id='notification'></span></p>
+                <script>
+
+                    function myFunction() {
+
+                        document.getElementById('notification').innerHTML = (username.value + ", Your message has been sent, we will reach you using email you provided for further information.");       
+                                        
+                    }
+                </script>
+          </div>
+      </div> 
+    </body>
+</html>
